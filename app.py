@@ -106,6 +106,7 @@ def home():
             <button type="submit" name="action" value="login">Login</button>
             <button type="submit" name="action" value="register">Register</button>
         </form>
+        <p> <i>If you register please enter your information then click register, after that an account will be created for you and you may login with it </i> </p>
     </body>
     </html>
     """)
