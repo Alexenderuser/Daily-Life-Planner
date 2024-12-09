@@ -16,7 +16,7 @@ COHERE_API_KEY = "4fKw6r8NGUQh3ilrwCLjUaL06gp0PPZUuzW6tFJM"
 co = cohere.Client(COHERE_API_KEY)
 
 # Parse database URL
-DATABASE_URL = "postgresql://postgres:kvWgDtueoVeTbWzWxmYJFCodUzJuWTrZ@junction.proxy.rlwy.net:52445/railway"
+DATABASE_URL = "postgresql://postgres:MVeyhKlwoEwIFtsubTWBbEhXXDslNgld@autorack.proxy.rlwy.net:33913/railway"
 parsed_url = urlparse(DATABASE_URL)
 DB_HOST = parsed_url.hostname
 DB_PORT = parsed_url.port
